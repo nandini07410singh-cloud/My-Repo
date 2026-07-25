@@ -1,0 +1,43 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    height: 5%;
+    color: rgb(96, 132, 180);
+    text-align: center;
+    font-size: x-large;
+    margin: 20px;
+}
+.heading{
+    font-size: x-large;
+    color: rgb(96, 132, 180);
+}
+#box1{
+    height: 25px;
+    background-color: lightsteelblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box1 div{
+    margin-left: 35px;
+}
+.contant{
+    font-size: medium;
+}
+#box2 div{
+    margin: 10px 0px 10px 5px;
+}
+#box3 div{
+    margin: 5px;
+}
+#skill{
+    display: flex;
+}
+#skill div{
+    width: 50px;
+    border: 2px solid rgb(96, 132, 180);
+    border-radius: 20px;
+    text-align: center;
+}
