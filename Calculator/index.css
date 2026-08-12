@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  min-height: 100vh;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  display: grid;
+  place-items: center;
+}
+.calculator{
+  width: 250px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.text{
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+}
+#display{
+  width: 200px;
+  font-size: 25px;
+}
+.button-container{
+  padding: 0 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.btn{
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
