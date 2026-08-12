@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cricket Game Project</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <h1>Bat Ball Stump Game</h1>
+  <button class="choice-button" onclick="
+    let computerChoice = generateComputerChoice();
+    let resultMsg = getResult('Bat', computerChoice);
+    showResult('Bat', computerChoice, resultMsg);
+    ">
+    <img src="Image/bat.png" alt="Bat Image" class="choice-image" ></button>
+
+  <button class="choice-button" onclick="
+    computerChoice = generateComputerChoice();
+    resultMsg = getResult('Ball', computerChoice);
+    showResult('Ball', computerChoice, resultMsg);
+    ">
+    <img src="Image/ball.png" alt="Ball Image" class="choice-image"></button>
+
+  <button class="choice-button" onclick="
+    computerChoice = generateComputerChoice();
+    resultMsg = getResult('Stump', computerChoice);
+    showResult('Stump', computerChoice, resultMsg);
+    ">
+    <img src="Image/stump.png" alt="Stump Image" class="choice-image"></button>
+
+  <h2 id="user-move"></h2>
+  <h2 id="computer-move"></h2>
+  <h2 id="result"></h2>
+  <h2 id="score"></h2>
+
+  <button class="reset-btn" onclick="
+    localStorage.clear();
+    resetScore();
+    ">Reset</button>
+
+    <script src="index.js">
+    </script>
+</body>
+</html>
